@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.section-1{
+    margin: 5px;
+}
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------Section-1------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+header{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    height: 100%;
+    width: 150px;
+    margin-top: 1px;
+    float: left;
+    margin: auto;
+}
+
+a.button{
+    display: inline-block;
+    padding: 8px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid rgb(134, 132, 132);
+    margin-left: 433px;
+    float: left;
+}
+
+a img{
+    height: 24px;
+    width: 24px;
+}
+
+.button-text{
+    margin-left: 4px;
+    color:black;
+}
+
+.thoitiet{
+    height: 100%;
+    margin-left: 50px;
+    float: left;
+}
+
+.text p,.text h6{
+    height: 50%;
+    float: right;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.thoitiet-item{
+    float: left;
+}
+
+.circle {
+    background: #e7b067;
+    margin-top: 1px;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    float: left;
+    display: flex;
+}
+
+
+.thoitiet-item h2{
+    font-size: 30px;
+    font-weight: 400; 
+    margin-left: 10px;
+    margin-top: 1px;
+    float: left;
+}
+.thoitiet-item h2 span{
+    font-weight: 200;
+    color: rgb(134, 132, 132);
+}
+
+.login,.search{
+    font-weight: 450;
+    font-size: 20px;
+    height: 100%;
+    margin: 7px 20px;
+    float: left;
+}
+
+.login a,.search a{
+    font-weight: 450;
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.login a{
+    margin-left: 4px;
+}
+
+.search a{
+    float: right;
+}
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-----------------------Navigation----------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+nav{
+    width: 100%;
+    height: 50px;
+    /* border-bottom: solid 1px #e0dfdd; */
+}
+
+#logo-link{
+    width: auto;
+}
+
+
+
+#wrapper{
+    background-color: #ffffff;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+#navbar-toggle{
+    width: 38px;
+    height: 38px;
+    background-color: rgb(253, 255, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#navbar-toggle::before{
+    content: "";
+    width: 28px;
+    height: 2px;
+    background-color: #0f6c32;
+    position: absolute;
+    transform: translateY(-6px);
+    transition: 0.25s ease-in-out;
+    margin: auto;
+}
+
+#navbar-toggle::after{
+    content: "";
+    width: 28px;
+    height: 2px;
+    background-color: #0f6c32;
+    position: absolute;
+    transform: translateY(6px);
+    transition: 0.25s ease-in-out;
+}
+
+#navbar-toggle.open::before{
+    transform: rotate(45deg);
+}
+
+#navbar-toggle.open::after{
+    transform: rotate(-45deg);
+}
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------Section-2------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+
+.section-2{
+    border-bottom: #e0dfdd solid 4px;
+    padding-bottom: 25px;
+}
+
+.section-2 .col-md-3:first-child, .section-2 .col-md-6{
+    border-right: #e0dfdd 1px solid;
+}
+
+
+.section-2 a, .section-3 a, .section-4 a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.section-2 .col-md-6 a{
+    font-size: 24px;
+}
+
+.section-2 .col-md-6 img{
+    width: 100%;
+}
+
+.section-2 .col-md-3 a{
+    padding-right:15px ;
+}
+
+.section-2 .col-md-3:last-child img{
+    width: 100px;
+    height: 85px;
+}
+
+.section-3 a img{
+    height: 100%;
+    width: 150px;
+}
+
+.section-3 .ads-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.section-3{
+    border-bottom: #e0dfdd solid 2px;
+}
+
+
+.section-4 .tittle img {
+    height: 100%;
+    width: 250px;
+}
+
+.infor-new{
+    padding-bottom: 25px;
+    border-bottom: 4px solid #e0dfdd;
+    margin-bottom: 25px;
+}
+
+.section-4 .infor-menu ul{
+    margin-top:  10px;
+    padding: 0;
+}
+
+.section-4 .infor-menu ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 25px;
+}
+
+
+.section-4 .infor-menu ul li:first-child a{
+    color: #0f6c32;
+}
+
+.infor-title img{
+    height: 62px;
+    width: 90px;
+}
+
+.infor-title a{
+    font-size: 16px;
+    font-weight: 480;
+}
+
+.infor-title .d-flex a{
+    padding: 0 15px 0 8px;
+}
+
+
+.footer{
+    border-top: solid 5px  #0f6c32;
+}
+
+.footer p{
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.footer span img{
+    height: 40px;
+    width: 120px;
+    margin-bottom: 16px;
+}
+
+.footer .ios img,.footer .android img{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+/* Hover Menu 
+*/
+li {
+    margin-bottom: -15px;
+}
+
+.hover-li {
+    display: inline-block;
+    color: rgba(12, 216, 114, 0.815);
+    text-decoration: none;
+}
+
+.hover-li::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0.5px;
+    background: rgb(189, 186, 186);
+    transition: width .3s;
+}
+
+.hover-li:hover::after {
+    width: 100%;
+    background: rgb(7, 136, 50);
+    height: 3px;
+
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+  }
+
+
+  
